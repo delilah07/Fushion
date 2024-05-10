@@ -8,7 +8,6 @@ const Home = () => {
       <Section>
         <CoverVideo />
         <Logo />
-        <h1>Logo2</h1>
       </Section>
     </>
   );

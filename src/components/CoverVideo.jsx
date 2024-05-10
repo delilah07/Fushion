@@ -10,7 +10,7 @@ const containerVariants = {
   show: {
     opacity: 1,
     transition: {
-      delay: 3,
+      delay: 2,
       when: 'beforeChildren',
 
       staggerChildren: 0.3,
@@ -36,7 +36,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.16"
+              data-scroll-delay="0.14"
               data-scroll-speed="4"
             >
               F
@@ -44,7 +44,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.14"
+              data-scroll-delay="0.12"
               data-scroll-speed="4"
             >
               u
@@ -52,7 +52,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.12"
+              data-scroll-delay="0.1"
               data-scroll-speed="4"
             >
               s
@@ -60,7 +60,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.1"
+              data-scroll-delay="0.08"
               data-scroll-speed="4"
             >
               h
@@ -68,7 +68,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.08"
+              data-scroll-delay="0.06"
               data-scroll-speed="4"
             >
               i
@@ -76,7 +76,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.06"
+              data-scroll-delay="0.04"
               data-scroll-speed="4"
             >
               o
@@ -84,15 +84,22 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.04"
+              data-scroll-delay="0.02"
               data-scroll-speed="4"
             >
               n
             </motion.span>
           </h1>
-          <h2 data-scroll data-scroll-delay="0.04" data-scroll-speed="2">
+          <motion.h2
+            variants={containerVariants}
+            initial="hidden"
+            animate="show"
+            data-scroll
+            data-scroll-delay="0.04"
+            data-scroll-speed="2"
+          >
             Fashion and style are forever
-          </h2>
+          </motion.h2>
         </Title>
         <video src={MainVideo} type="video/mp4" autoPlay muted loop />
       </VideoContainer>
