@@ -37,11 +37,20 @@ export const Title = styled(motion.div)`
   gap: ${(props) => props.theme.fontsm};
   color: ${(props) => props.theme.text};
 
+  > div {
+    display: flex;
+  }
+
   h1 {
     font-family: 'Kaushan Script';
     font-size: ${(props) => props.theme.fontBig};
     line-height: 1;
     text-shadow: 1px 1px 1px ${(props) => props.theme.body};
+    display: flex;
+
+    span {
+      display: block;
+    }
   }
   h2 {
     font-size: ${(props) => props.theme.fontlg};

@@ -84,7 +84,7 @@ const CoverVideo = () => {
             <motion.span
               variants={itemVariants}
               data-scroll
-              data-scroll-delay="0.02"
+              data-scroll-delay="0.04"
               data-scroll-speed="4"
             >
               n
