@@ -228,6 +228,7 @@ object-assign
 `,QC=()=>{const[e,t]=P.useState(!1);return A.jsx(A.Fragment,{children:A.jsxs(YC,{click:e,initial:{y:"-100%"},animate:{y:0},transition:{duration:1,delay:4},children:[A.jsx(GC,{onClick:()=>t(!e),children:"Menu"}),A.jsx(XC,{drag:"y",dragConstraints:{top:0,bottom:70},dragElastic:.05,dragSnapToOrigin:!0,children:A.jsxs("ul",{children:[A.jsx(Do,{whileHover:{scale:1.1,y:-5},whileTap:{scale:.9,Y:0},children:"Home"}),A.jsx(Do,{whileHover:{scale:1.1,y:-5},whileTap:{scale:.9,Y:0},children:"about"}),A.jsx(Do,{whileHover:{scale:1.1,y:-5},whileTap:{scale:.9,Y:0},children:"shop"}),A.jsx(Do,{whileHover:{scale:1.1,y:-5},whileTap:{scale:.9,Y:0},children:"new arrival"})]})})]})})},qC=Ce.section`
   position: relative;
   min-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   width: 80vw;
   margin: 0 auto;
