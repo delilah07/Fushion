@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Section = styled.section`
   position: relative;
   min-height: 100vh;
+  height: 100vh;
   overflow: hidden;
   width: 80vw;
   margin: 0 auto;
